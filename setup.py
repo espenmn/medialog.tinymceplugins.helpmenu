@@ -21,7 +21,7 @@ setup(name='medialog.tinymceplugins.helpmenu',
       url='http://svn.plone.org/svn/collective/medialog.tinymceplugins.helpmenu/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['medialog', 'medialog.tinymceplugins'],
+      namespace_packages=['medialog'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[
