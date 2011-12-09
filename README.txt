@@ -9,6 +9,11 @@ It is trying to add a "help menu to the tiny mce toolbar"
 Changelog
 =========
 
+0.2.4
+--------
+* Added back a few more files that had not made it to github.
+
+
 0.2.3
 --------
 * Added back doc folder that had disappeared.

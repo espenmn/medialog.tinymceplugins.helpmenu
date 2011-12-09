@@ -18,6 +18,7 @@ medialog.tinymceplugins.helpmenu.egg-info/not-zip-safe
 medialog.tinymceplugins.helpmenu.egg-info/requires.txt
 medialog.tinymceplugins.helpmenu.egg-info/top_level.txt
 medialog/tinymceplugins/.DS_Store
+medialog/tinymceplugins/__init__.py
 medialog/tinymceplugins/helpmenu/.DS_Store
 medialog/tinymceplugins/helpmenu/__init__.py
 medialog/tinymceplugins/helpmenu/configure.zcml

@@ -1,7 +1,7 @@
 from setuptools import setup, find_packages
 import os
 
-version = '0.2.3'
+version = '0.2.4'
 
 setup(name='medialog.tinymceplugins.helpmenu',
       version=version,
@@ -21,7 +21,7 @@ setup(name='medialog.tinymceplugins.helpmenu',
       url='http://svn.plone.org/svn/collective/medialog.tinymceplugins.helpmenu/',
       license='GPL',
       packages=find_packages(exclude=['ez_setup']),
-      namespace_packages=['medialog'],
+      namespace_packages=['medialog', 'medialog.tinymceplugins'],
       include_package_data=True,
       zip_safe=False,
       install_requires=[

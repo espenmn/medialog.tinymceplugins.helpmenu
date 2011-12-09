@@ -1,1 +1,2 @@
 medialog
+medialog.tinymceplugins
