@@ -1,6 +1,6 @@
 Metadata-Version: 1.0
 Name: medialog.tinymceplugins.helpmenu
-Version: 0.2.4
+Version: 0.2.5
 Summary: Add on that displays help (how-tos) inside TinyMCE
 Home-page: http://svn.plone.org/svn/collective/medialog.tinymceplugins.helpmenu/
 Author: Espen Moe-Nilssen
@@ -16,6 +16,11 @@ Description: Introduction
         
         Changelog
         =========
+        
+        0.2.5
+        --------
+        * Translation is not working for Nynorsk, so default language is now norwegian
+        
         
         0.2.4
         --------
