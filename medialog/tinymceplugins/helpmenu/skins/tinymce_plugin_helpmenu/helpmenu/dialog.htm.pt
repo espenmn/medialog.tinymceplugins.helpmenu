@@ -12,28 +12,28 @@
 
 </head>
 <body>
-<h2  class="chapter" i18n:translate="title00">Chapter 00</h2>
+<h2  class="chapter" i18n:translate="title00">TinyMCE Brukermanual</h2>
 <iframe width="94%" height="40px" src="00"  i18n:attributes="src"></iframe>
 
-<h2  class="chapter" i18n:translate="title01">Chapter 01</h2>
+<h2  class="chapter" i18n:translate="title01">01. Innledning</h2>
 <iframe width="94%" height="220px" src="01"  i18n:attributes="src"></iframe>
 
-<h2  class="chapter" i18n:translate="title02">Chapter 02</h2>
+<h2  class="chapter" i18n:translate="title02">02. Grunnleggende</h2>
 <iframe width="94%" height="100%" src="02"  i18n:attributes="src"></iframe>
 
-<h2  class="chapter" i18n:translate="title03">Chapter 03</h2>
+<h2  class="chapter" i18n:translate="title03">03. Sette inn bilder</h2>
 <iframe width="94%" height="100%" src="03"  i18n:attributes="src"></iframe>
 
-<h2  class="chapter" i18n:translate="title04">Chapter 04</h2>
+<h2  class="chapter" i18n:translate="title04"04. Sette inn lenker</h2>
 <iframe width="94%" height="100%" src="04"  i18n:attributes="src"></iframe>
 
-<h2 class="chapter" i18n:translate="title05">Chapter 05</h2>
+<h2 class="chapter" i18n:translate="title05">05. Sette inn tabeller</h2>
 <iframe width="94%" height="100%" src="05"  i18n:attributes="src"></iframe>
 
-<h2  class="chapter" i18n:translate="title06">Chapter 06</h2>
+<h2  class="chapter" i18n:translate="title06">06 Videoer</h2>
 <iframe width="94%" height="100%" src="06"  i18n:attributes="src"></iframe>
 
-<h2  class="chapter" i18n:translate="title07">Chapter 07</h2>
+<h2  class="chapter" i18n:translate="title07">07 Knapper</h2>
 <iframe width="94%" height="100%" src="07"  i18n:attributes="src"></iframe>
 
 
