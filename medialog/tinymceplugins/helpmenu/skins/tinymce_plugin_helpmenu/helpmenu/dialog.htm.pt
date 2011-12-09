@@ -24,7 +24,7 @@
 <h2  class="chapter" i18n:translate="title03">03. Sette inn bilder</h2>
 <iframe width="94%" height="100%" src="03"  i18n:attributes="src"></iframe>
 
-<h2  class="chapter" i18n:translate="title04"04. Sette inn lenker</h2>
+<h2  class="chapter" i18n:translate="title04">04. Sette inn lenker</h2>
 <iframe width="94%" height="100%" src="04"  i18n:attributes="src"></iframe>
 
 <h2 class="chapter" i18n:translate="title05">05. Sette inn tabeller</h2>
