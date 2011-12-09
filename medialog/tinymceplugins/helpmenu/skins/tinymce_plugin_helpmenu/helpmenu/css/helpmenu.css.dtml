@@ -1,0 +1,52 @@
+html {
+	height:  100%;
+	overflow:  hidden;
+}
+
+body  {
+	height:  100%;
+	overflow:  scroll;
+}
+
+iframe {
+	border-color: whitesmoke;
+	border-width: 1px;
+	padding: 2%;
+	height:  90%;
+}
+
+
+p {
+	padding: 3px;
+	font-size: 12px;
+	margin:  0;
+
+}
+table {
+	font-size:11px;
+	border: 1px solid silver;
+	padding: 4px;
+}
+
+.even {
+	background: whitesmoke;
+}
+tr {
+	padding: 3px 10px;
+}
+.chapter {
+	text-decoration: underline;
+}
+
+html {
+padding:10px;
+	
+}
+
+h2.chapter {
+	background: #e5e5e5;
+	padding:5px 15px;
+	font-family: "Lucida Grande", Lucida, Verdana, sans-serif;
+	text-transform: uppercase;
+	color: #276598;
+}

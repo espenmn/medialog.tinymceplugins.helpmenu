@@ -1,0 +1,68 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: medialog.tinymceplugins.helpmenu\n"
+"POT-Creation-Date: 2011-06-28 22:05+0000\n"
+"PO-Revision-Date: 2011-07-01 14:11+0100\n"
+"Last-Translator: Espen Moe-Nilssen <espen@medialog.no>\n"
+"Language-Team: English\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: medialog.tinymceplugins.helpmenu\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+
+
+msgid "title00"
+msgstr "TinyMCE User Manual"
+
+msgid "title01"
+msgstr "01. Introduction"
+
+msgid "title02"
+msgstr "02. Basics"
+
+msgid "title03"
+msgstr "03. Insert Images"
+
+msgid "title04"
+msgstr "04. Insert links"
+
+msgid "title05"
+msgstr "05. Insert tables"
+
+msgid "title06"
+msgstr "06 Videoer"
+
+msgid "title07"
+msgstr "07 Buttons"
+
+msgid "00"
+msgstr "docs/en/about"
+
+msgid "01"
+msgstr "docs/en/first_steps"
+
+msgid "02"
+msgstr "docs/no/chapter02"
+
+msgid "03"
+msgstr "docs/en/insert_images"
+
+msgid "04"
+msgstr "docs/en/insert_links"
+
+msgid "05"
+msgstr "docs/no/chapter05"
+
+msgid "06"
+msgstr "docs/no/chapter06"
+
+msgid "07"
+msgstr "docs/no/buttons"
+

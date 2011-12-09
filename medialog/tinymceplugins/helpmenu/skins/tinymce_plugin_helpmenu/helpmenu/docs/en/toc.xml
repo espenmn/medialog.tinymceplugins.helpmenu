@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<root>
+	<page file="index.htm" title="Table Of Contents" />
+	<page file="about.htm" title="About TinyMCE" />
+	<page file="buttons.htm" title="Common Buttons" />
+	<page file="insert_links.htm" title="Insert/Edit Links" explains="link.htm" />
+	<page file="insert_images.htm" title="Insert/Edit Images" explains="image.htm" />
+</root>

@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<object name="portal_skins" >
+   
+ <object name="tinymce_plugin_helpmenu"
+    meta_type="Filesystem Directory View"
+    directory="medialog.tinymceplugins.helpmenu:skins/tinymce_plugin_helpmenu"/>
+
+ <skin-path name="*">
+  <layer name="tinymce_plugin_helpmenu"
+     insert-after="custom"/>
+ </skin-path>
+ 
+</object>

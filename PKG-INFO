@@ -1,0 +1,55 @@
+Metadata-Version: 1.0
+Name: medialog.tinymceplugins.helpmenu
+Version: 0.2.1alpha
+Summary: Add on that displays help (how-tos) inside TinyMCE
+Home-page: http://svn.plone.org/svn/collective/medialog.tinymceplugins.helpmenu/
+Author: Espen Moe-Nilssen
+Author-email: espen@medialog.no
+License: GPL
+Description: Introduction
+        ============
+        
+        This is a plugin for `TinyMCE`__ editor for Plone.
+        __ http://plone.org/products/tinymce/
+        
+        It is trying to add a "help menu to tiny mce toolbar"
+        
+        Changelog
+        =========
+        
+        0.2.1
+        --------
+        
+        * Added a few parts in english (like a description of the buttons)
+        
+        
+        0.2
+        --------
+        
+        * Added translations
+        
+        0.1
+        --------
+        
+        * Added images and gaid.htm
+        
+        
+        0.0.1
+        --------
+        
+        * Initialversion
+        
+        Changelog
+        =========
+        
+        0.0.1a 2011-05-05
+        -----------------------
+        
+        * initial release
+        
+Keywords: tinymce plugin help menu
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Framework :: Plone
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: JavaScript

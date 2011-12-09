@@ -1,0 +1,466 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en"><head><meta http-equiv="Content-type" content="text/html; charset=utf-8" /><title>TinyMCE User Manual — Plone CMS: Open Source Content Management</title><base href="" /><link rel="alternate" type="application/rss+xml" href="http://feeds.plone.org/plonenews" title="Plone News" /><link rel="alternate" type="application/rss+xml" href="http://feeds.plone.org/plonereleases" title="Plone Releases" /><link rel="alternate" type="application/rss+xml" href="http://feeds.plone.org/ploneevents" title="Upcoming Plone Events" /><link rel="alternate" type="application/rss+xml" href="http://feeds.plone.org/ploneaddons" title="Latest Plone &amp; Add-on Releases" /><link rel="alternate" type="application/rss+xml" href="http://feeds.plone.org/plonetraining" title="Upcoming Plone Training" /><link rel="alternate" type="application/rss+xml" href="http://feeds.plone.org/ploneblogs" title="Plone Blogs" /><!--[if IE]><style type="text/css" media="all">@import url(/ie.css);</style><![endif]--><!--[if lte IE 6]><script src="/ie6warn.js" type="text/javascript"></script><![endif]--><script type="text/javascript" src="../../../../../portal_javascripts/Sunburst&#32;Theme/jquery-cachekey7059.js"></script><script type="text/javascript" src="../../../../../portal_javascripts/Sunburst&#32;Theme/popupforms-cachekey4563.js"></script><script type="text/javascript" src="../../../../../portal_javascripts/Sunburst&#32;Theme/resourcecioppino.twothumbs.javascriptstwothumbs-cachekey3013.js"></script><style type="text/css">@import url(http://plone.org/portal_css/Sunburst%20Theme/print-cachekey3245.css);</style><style type="text/css">@import url(http://plone.org/portal_css/Sunburst%20Theme/newplone-cachekey7635.css);</style><style type="text/css" media="screen">@import url(http://plone.org/portal_css/Sunburst%20Theme/resourceplone.app.jquerytools.overlays-cachekey5924.css);</style><style type="text/css" media="screen">@import url(http://plone.org/portal_css/Sunburst%20Theme/resourceProducts.PloneSoftwareCenter.stylesheetspsc-cachekey4912.css);</style><style type="text/css" media="all">@import url(http://plone.org/portal_css/Sunburst%20Theme/psc-cachekey1695.css);</style><style type="text/css">@import url(http://plone.org/portal_css/Sunburst%20Theme/resourcecioppino.twothumbs.stylesheetstwothumbs-cachekey0775.css);</style><link rel="kinetic-stylesheet" type="text/css" href="http://plone.org/portal_kss/Sunburst%20Theme/resourcetinymce.ksstinymce-cachekey4684.kss" /><link rel="kinetic-stylesheet" type="text/css" href="http://plone.org/portal_kss/Sunburst%20Theme/at-cachekey2728.kss" /></head><body class="template-referencemanual-all-pages portaltype-helpcenterreferencemanual section-products"><div id="outer-wrapper"><div id="inner-wrapper"><div id="nav"><a id="portal-logo" title="Home" accesskey="1" href="http://plone.org">
+    <img src="../../../../../logo.png" alt="" title="" height="56" width="215" /></a><form id="search" name="searchform" action="http://plone.org/search"><input id="search-site" name="SearchableText" type="text" title="Search this site…" accesskey="4" class="inputLabel" size="15" /></form><div id="nav-bar"><div id="user"><a id="login-link" href="http://plone.org/login">Log in</a><a id="user-id" href="http://plone.org/@@personal-preferences"><span id="username"></span></a><div id="login-popup"><span class="loginText">Login to Plone.org</span><form id="login-slide-form" action="https://plone.org/login_form" method="post"><div class="form"><input id="came-from-input" type="hidden" value="" name="came_from" /><input type="hidden" name="form.submitted" value="1" /><label for="__ac_name">username</label><input type="text" id="__ac_name" value="" name="__ac_name" size="15" /><label for="__ac_password">password</label><input type="password" id="__ac_password" value="" name="__ac_password" size="15" /><br /><a href="http://plone.org/mail_password_form?userid=">Forgot password?</a></div><input type="submit" value="Let me in!" name="submit" class="context" /></form><span class="createText"><a href="http://plone.org/@@register">Click here</a> to create an account</span></div></div><ul id="main-nav" class="navigation"><li id="portaltab-index_html" class="plain"><a href="http://plone.org" title="">Home</a></li><li id="portaltab-products" class="selected"><a href="http://plone.org/products" title="Plone releases and available add-on products for Plone. Make sure you have Plone installed before downloading the add-ons — and make sure you are using add-ons that have been certified for use with your particular version.">Download &amp; Extend</a></li><li id="portaltab-documentation" class="plain"><a href="http://plone.org/documentation" title="The primary source for Plone documentation.">Documentation</a></li><li id="portaltab-contribute" class="plain"><a href="http://plone.org/contribute" title="Contains all developer-related material.">Get Involved</a></li><li id="portaltab-foundation" class="plain"><a href="http://plone.org/foundation" title="The Plone Foundation exists to further the development, marketing, and legal affairs of Plone and the Plone community.">Plone Foundation</a></li><li id="portaltab-support" class="plain"><a href="http://plone.org/support" title="Support and contact details for the Plone project.">Support</a></li><li id="portaltab-providers" class="plain"><a href="http://plone.org/providers" title="">Providers</a></li></ul></div><ul id="sub-nav" class="navigation"></ul></div><div id="edit-bar"><div id="action-menu"></div><div id="edit-menu"></div></div><div id="content-wrapper"><div class="grid-row"><div class="grid-cell position-leftmost width-two-thirds"><div id="viewlet-above-content"></div><div id="content">
+            <div>
+
+                <h1>
+                    TinyMCE User Manual
+                </h1>
+
+                <p class="discreet visualNoPrint">
+                    <a href="http://plone.org/products/tinymce/documentation/manual/tinymce-user-manual">« Return to page index</a>
+                </p>
+
+                <p class="documentDescription">A User Manual for Plone content creators and managers who use TinyMCE.</p>
+
+                
+    
+        <div class="referenceManualCollation depth-1">
+
+            <h1>
+                1.
+                Introduction
+            </h1>
+
+            <p class="documentDescription">Introduction to TinyMCE.</p>
+    
+            <div>
+                
+                    <div><p><span class="ingress">TinyMCE is a platform independent web based Javascript HTML WYSIWYG editor. What this means is that it will let you create html content on your web site. TinyMCE supports a lot of Operation Systems and browsers. Some examples are: </span>Mozilla, Internet Explorer, Firefox, Opera, Safari and Chrome. TinyMCE has a large userbase and an active development community.</p>&#13;
+<p>This user manual will show you all the basics of the TinyMCE editor. This manual is based on chapter 2.4 of the Plone 3.0 User Manual, If you want to know the rest of content creation using Plone go to the index of the <a href="http://plone.org/documentation/manual/plone-3-user-manual">Plone 3.0 User Manual</a>.</p>&#13;
+<p><span class="ingress"></span></p></div>
+                
+                
+            </div>
+
+            
+
+        </div>        
+    
+    
+        <div class="referenceManualCollation depth-1">
+
+            <h1>
+                2.
+                Basics
+            </h1>
+
+            <p class="documentDescription">Basic options of TinyMCE.</p>
+    
+            <div>
+                
+                    <div><p>The default TinyMCE editor will look like this:</p>&#13;
+<p><img class="image-inline" src="tiny_start.jpg" alt="" /></p>&#13;
+<p>On top you can see the toolbar, below the text area and at the bottom a resize bar. If you drag the lower right corner you can make the editor window bigger or smaller.</p>&#13;
+<h2>Toolbar</h2>&#13;
+<p>The following table describes the function and output of each button.</p>&#13;
+<table class="listing"><thead><tr><th>icon</th>&#13;
+<th>function</th>&#13;
+<th>description</th>&#13;
+<th>example</th>&#13;
+</tr></thead><tbody><tr class="even"><td><img class="image-inline" src="save.gif" alt="" /></td>&#13;
+<td>save</td>&#13;
+<td>Saves changes <br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td valign="top" rowspan="11"><img class="image-inline" src="style.jpg" alt="" /> <br /></td>&#13;
+<td valign="top">text style<br /></td>&#13;
+<td valign="top">Normal paragraph<br /></td>&#13;
+<td valign="top">text<br /></td>&#13;
+</tr><tr class="even"><td valign="top"><br /></td>&#13;
+<td valign="top">Heading<br /></td>&#13;
+<td valign="top">&#13;
+<h2>text</h2>&#13;
+</td>&#13;
+</tr><tr><td valign="top"><br /></td>&#13;
+<td valign="top">Subheading<br /></td>&#13;
+<td valign="top">&#13;
+<h3>text</h3>&#13;
+</td>&#13;
+</tr><tr class="even"><td valign="top"><br /></td>&#13;
+<td valign="top">Literal<br /></td>&#13;
+<td valign="top">&#13;
+<pre>text</pre>&#13;
+</td>&#13;
+</tr><tr><td valign="top"><br /></td>&#13;
+<td valign="top">Discreet<br /></td>&#13;
+<td valign="top">&#13;
+<p class="discreet">text</p>&#13;
+</td>&#13;
+</tr><tr class="even"><td valign="top"><br /></td>&#13;
+<td valign="top">Pull-quote<br /></td>&#13;
+<td valign="top">Pull-quote<br /></td>&#13;
+</tr><tr><td valign="top"><br /></td>&#13;
+<td valign="top">Call-out<br /></td>&#13;
+<td valign="top"><br /></td>&#13;
+</tr><tr class="even"><td valign="top"><br /></td>&#13;
+<td valign="top">Clear floats<br /></td>&#13;
+<td valign="top"><br /></td>&#13;
+</tr><tr><td valign="top"><br /></td>&#13;
+<td valign="top">Highlight<br /></td>&#13;
+<td valign="top"><br /></td>&#13;
+</tr><tr class="even"><td valign="top"><br /></td>&#13;
+<td valign="top">(remove style)<br /></td>&#13;
+<td valign="top"><br /></td>&#13;
+</tr><tr><td valign="top"><br /></td>&#13;
+<td valign="top">Page break (print only)<br /></td>&#13;
+<td valign="top"><br /></td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="bold.gif" alt="" /><br /></td>&#13;
+<td>bold<br /></td>&#13;
+<td>Bolds selected text<br /></td>&#13;
+<td><strong>test</strong></td>&#13;
+</tr><tr><td><img class="image-inline" src="italic.gif" alt="" /><br /></td>&#13;
+<td>italic</td>&#13;
+<td>Italicizes selected text<br /></td>&#13;
+<td><em>text</em></td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="copy_of_justifyleft.gif" alt="" /></td>&#13;
+<td>justify left<br /></td>&#13;
+<td>Aligns the selected text&#13;
+to the left</td>&#13;
+<td>text</td>&#13;
+</tr><tr><td><img class="image-inline" src="justifycenter.gif" alt="" /><br /></td>&#13;
+<td>justify center<br /></td>&#13;
+<td>Aligns the selected text&#13;
+to the center of the screen</td>&#13;
+<td align="center">text<br /></td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="justifyright.gif" alt="" /></td>&#13;
+<td>justify right<br /></td>&#13;
+<td>Aligns the selected text&#13;
+to the right</td>&#13;
+<td align="right">text<br /></td>&#13;
+</tr><tr><td><img class="image-inline" src="justifyfull.gif" alt="" /></td>&#13;
+<td>justify full<br /></td>&#13;
+<td>Aligns the selected text  to both left and right<br /></td>&#13;
+<td>text <br /></td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="bullist.gif" alt="" /></td>&#13;
+<td>bulleted list<br /></td>&#13;
+<td>Creates a&#13;
+bulleted list</td>&#13;
+<td>&#13;
+<ul><li>item 1</li><li>item 2</li><li>item 3<br /></li></ul></td>&#13;
+</tr><tr><td><img class="image-inline" src="numlist.gif" alt="" /></td>&#13;
+<td>numbered list<br /></td>&#13;
+<td>Creates a&#13;
+numbered list</td>&#13;
+<td>&#13;
+<ol><li>item 1</li><li>item 2</li><li>item 3<br /></li></ol></td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="outdent.gif" alt="" /></td>&#13;
+<td>oudent</td>&#13;
+<td>Moves an indented section&#13;
+of text one tab to the left</td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="indent.gif" alt="" /></td>&#13;
+<td>indent<br /></td>&#13;
+<td>Indents the selected text&#13;
+by one tab</td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="table.gif" alt="" /></td>&#13;
+<td>insert table<br /></td>&#13;
+<td>Inserts a table <br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="rowproperties.gif" alt="" /></td>&#13;
+<td>row properties<br /></td>&#13;
+<td>Table row properties<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="celproperties.gif" alt="" /></td>&#13;
+<td>cell properties<br /></td>&#13;
+<td>Table cell properties<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="rowbefore.gif" alt="" /></td>&#13;
+<td>insert row before<br /></td>&#13;
+<td>Inserts a row before the current row<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="rowafter.gif" alt="" /></td>&#13;
+<td>insert row after<br /></td>&#13;
+<td>Inserts a row after the current row<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="delrow.gif" alt="" /></td>&#13;
+<td>delete row<br /></td>&#13;
+<td>Deletes the current row<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="colbefore.gif" alt="" /></td>&#13;
+<td>insert column before<br /></td>&#13;
+<td>Inserts a column before the current column<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="colafter.gif" alt="" /></td>&#13;
+<td>insert column after<br /></td>&#13;
+<td>Inserts a column after the current column<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="delcol.gif" alt="" /></td>&#13;
+<td>delete column<br /></td>&#13;
+<td>Deletes the current column<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="splitcel.gif" alt="" /></td>&#13;
+<td>split cells<br /></td>&#13;
+<td>Splits the current cell<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="mergecel.gif" alt="" /></td>&#13;
+<td>merge cells<br /></td>&#13;
+<td>Merge the current cell with other cells<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="link.gif" alt="" /> </td>&#13;
+<td>insert link<br /></td>&#13;
+<td>Inserts or edits a link<br /></td>&#13;
+<td><a href="http://www.google.com">text</a><br /></td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="unlink.gif" alt="" /></td>&#13;
+<td>unlink<br /></td>&#13;
+<td>Removes the current link<br /></td>&#13;
+<td>text<br /></td>&#13;
+</tr><tr><td><img class="image-inline" src="anchor.gif" alt="" /></td>&#13;
+<td>insert anchor<br /></td>&#13;
+<td>Inserts or edits an anchor <br /></td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="image.gif" alt="" /></td>&#13;
+<td>insert image<br /></td>&#13;
+<td>Inserts or edits an image<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr><td><img class="image-inline" src="code.gif" alt="" /></td>&#13;
+<td>html<br /></td>&#13;
+<td>Edit the HTML source code<br /></td>&#13;
+<td> </td>&#13;
+</tr><tr class="even"><td><img class="image-inline" src="fullscreen.gif" alt="" /> </td>&#13;
+<td>fullscreen<br /></td>&#13;
+<td>Toggles fullscreen mode<br /></td>&#13;
+<td> </td>&#13;
+</tr></tbody></table><p> </p></div>
+                
+                
+            </div>
+
+            
+
+        </div>        
+    
+    
+        <div class="referenceManualCollation depth-1">
+
+            <h1>
+                3.
+                Inserting Images
+            </h1>
+
+            <p class="documentDescription">A description of the options available for inserting images with TinyMCE.</p>
+    
+            <div>
+                
+                    <div><p>The TinyMCE editor allows you to insert image files stored in Plone into your document, using the <img class="image-inline" src="image.gif" alt="Image" /></p><p> button on the TinyMCE toolbar:</p>&#13;
+<img class="image-inline" src="toolbar_image.jpg" alt="" /><p> </p>&#13;
+<p>Clicking this button launches the Insert Image dialog:</p>&#13;
+<img class="image-inline" src="insert_image_dialog.jpg" alt="" /><p> </p>&#13;
+The three columns of the dialog display:&#13;
+<ul><li>In the first column - a folder navigation list. </li><li>In the second column - an object navigation list, from which you can select your image file.</li><li>In the third column - image preview, and options for alignment, size and captions. <br /></li></ul><p>&#13;
+In the example above, an image of a rose was selected - rose.png (rather large one, at its original size of 600*450 pixels).</p>&#13;
+<p>&#13;
+According to the "Image alignment" option you choose, the image will be placed in&#13;
+your page (and the following HTML code will be generated):</p>&#13;
+<ul><li>lefthand (&lt;img class="image-left captioned" src="rose.png" alt="rose" /&gt;);</li><li>righthand (&lt;img class="image-right captioned" src="rose.png" alt="rose" /&gt;);</li><li>inline (&lt;img class="image-inline captioned" src="rose.png" alt="rose" /&gt;).</li></ul><p>&#13;
+You may also choose the size of the image you need. This is especially&#13;
+convenient when you deal with large images, as there is no need to&#13;
+use Photoshop or other external image editing application to crop&#13;
+or change the size of an image. The "Image size" dropdown list provides a choice&#13;
+between many sizes and formats:</p>&#13;
+<img class="image-inline" src="image_size.jpg" alt="" /><p> </p>&#13;
+<ul><li>Large (&lt;img src="rose.png/image_large" alt="rose" /&gt;);</li><li>Preview (&lt;img src="rose.png/image_preview" alt="rose" /&gt;);</li><li>Mini (&lt;img src="rose.png/image_mini" alt="rose" /&gt;) - the minimum-size image is formed;</li><li>Thumb (&lt;img src="rose.png/image_thumb" alt="rose" /&gt;)&#13;
+- a thumb(inch)-size icon is made out of your image (little bigger&#13;
+than 2,5cm); </li><li>Tile (&lt;img src="rose.png/image_tile" alt="rose" /&gt;) - a tile is made out of your image;</li><li>Icon (&lt;img src="rose.png/image_icon" alt="rose" /&gt;) - an icon is made out of your image;</li><li>Listing (&lt;img src="rose.png/image_listing" alt="rose" /&gt;) - a listing icon is made out of your image; </li></ul><p> </p>&#13;
+<h2>Image Captioning</h2>&#13;
+<p>&#13;
+It is possible to put image caption under the image in TinyMCE. Caption is taken from image description. Alt text is taken&#13;
+from image title. Alt text and caption update if image is updated.</p>&#13;
+<p>&#13;
+To enable image captioning go to <strong>Site Setup -&gt; TinyMCE</strong>. Make&#13;
+sure that you have<strong></strong> <strong>Allow captioned images</strong> selected&#13;
+in the <strong>Resource Types tab</strong>.</p>&#13;
+<img class="image-inline" src="image_caption_settings.jpg" alt="" /><p>When you add image to the site, you can put some text into its description that will be displayed as an image caption.</p>&#13;
+<p><img class="image-inline" src="add_image.jpg" alt="" /></p>&#13;
+<p>Now when we create a page, and insert image into it, check the box Caption:</p>&#13;
+<p><img class="image-inline" src="insert_image_caption.jpg" alt="" /></p>&#13;
+<p>Save this page, and you will see the image followed by its description as the caption all inserted into a frame:</p>&#13;
+<p><img class="image-inline" src="caption_page.jpg" alt="" /> </p></div>
+                
+                
+            </div>
+
+            
+
+        </div>        
+    
+    
+        <div class="referenceManualCollation depth-1">
+
+            <h1>
+                4.
+                Inserting Links
+            </h1>
+
+            <p class="documentDescription">Inserting internal, external and anchor links.</p>
+    
+            <div>
+                
+                    <div><h2>Internal Links</h2>&#13;
+Select a word or phrase, click the <em>Insert/edit link</em> icon, and the <em>Insert/edit link</em> panel will appear:&#13;
+<img class="image-inline" src="insert_internal_link.jpg" alt="" /><p> </p>&#13;
+<p>You use this panel by clicking on Home or Current folder to begin&#13;
+navigating the Plone web site to find a folder, page, or image to which&#13;
+you wish to make a link. In the example above, a page named&#13;
+"Long-tailed Skippers" has been chosen for the link.  After this panel&#13;
+is closed, a link to the "Long-tailed Skippers" page will be set for&#13;
+the word or phrase selected for the link.</p>&#13;
+<h2>External Links</h2>&#13;
+<p>Select a word or phrase, click the <em>Insert/edit link</em> icon, select <em>External</em> under <em>Libraries</em>, and the External link panel will appear:</p>&#13;
+<p><img class="image-inline" src="insert_external_link.jpg" alt="" /></p>&#13;
+<p>Type the web address of the external web site in the box after http://. When you press return or leave the field a preview will appear to check the address. If you paste in the web address,&#13;
+make sure you don't have duplicate http:// at the beginning of the&#13;
+address. Then click <em>ok</em>. The external link will be set to the word or phrase you selected.</p>&#13;
+<h2>Anchors</h2>&#13;
+<p align="left">Anchors are like position markers within a document,&#13;
+based on headings, subheadings, or another style set within the&#13;
+document. As an example, for a page called "Eastern Tiger Swallowtail,"&#13;
+with subheadings entitled "Description," "Habitat," "Behavior,"&#13;
+"Conservation Status," and "Literature," an easy set of links to these&#13;
+subheadings (to the positions within the document at those subheadings)&#13;
+can be created using anchors.</p>&#13;
+<p align="left">First, create the document with the subheadings set within it, and re-type the subheadings at the top of the document:</p>&#13;
+<p align="left"><img class="image-inline" src="anchor_page.jpg" alt="" /></p>&#13;
+<p align="left">Now create the anchors for each subheading. To create each anchor move the cursor to the beginning of the subheading and press the <em>Insert/edit anchor</em> icon. Enter the name of the anchor in  the <em>Anchor name</em> field. Then click <em>ok</em>.</p>&#13;
+<p align="left"><img class="image-inline" src="insert_anchor.jpg" alt="" /></p>&#13;
+<p align="left">Then select each of the re-typed subheadings at the top and click the <em>Insert/edit link</em> icon to select by subheadings:</p>&#13;
+<p align="left"><img class="image-inline" src="insert_anchor_select_text.jpg" alt="" /></p>&#13;
+<p align="left">When selecting <em>Anchors</em> under <em>Libraries</em>, a panel will appear for selecting which subheading to which the anchor link should connect:</p>&#13;
+<p align="left"><img class="image-inline" src="select_anchor.jpg" alt="" /></p>&#13;
+<p align="left">The <em>Link to anchor</em> tab will appear. The right side of the&#13;
+panel shows the anchors that have been set within the document.&#13;
+Here the <em>Description</em> anchor is chosen for the link (for the word Description, typed at the top of the document).</p>&#13;
+<p align="left">You can be creative with this powerful feature, by&#13;
+weaving such links-to-anchors within narrative text, by setting anchors&#13;
+to other styles within the document, and coming up with clever mixes.&#13;
+This functionality is especially important for large documents.</p></div>
+                
+                
+            </div>
+
+            
+
+        </div>        
+    
+    
+        <div class="referenceManualCollation depth-1">
+
+            <h1>
+                5.
+                Inserting Tables
+            </h1>
+
+            <p class="documentDescription">Inserting, updating and deleting tables, columns, rows and cells.</p>
+    
+            <div>
+                
+                    <div><p>Tables are handy for tabular data and lists. To add a table, put your cursor where you want it and click the <em>Inserts a new table</em> icon.  You'll see the <em>Insert/Modify table</em>&#13;
+</p><p> panel:</p>&#13;
+<img class="image-inline" src="insert_table.jpg" alt="" /><p> </p>&#13;
+Setting rows and columns is straightforward. You can add a summary of the table in the <em>Summary</em>&#13;
+<p> field if you like.  Table&#13;
+class refers to how you want the table to be styled. You have choices&#13;
+such as these:</p>&#13;
+<img class="image-inline" src="insert_table_classes.jpg" alt="" /><p> </p>&#13;
+<p>Here are examples of these table styles:</p>&#13;
+<p>Subdued grid:</p>&#13;
+<img class="image-inline" src="table_subdued_grid.jpg" alt="" /><p> </p>&#13;
+<p>Invisible grid:</p>&#13;
+<img class="image-inline" src="table_invisible_grid.jpg" alt="" /><p> </p>&#13;
+<p>Fancy listing:</p>&#13;
+<img class="image-inline" src="table_fancy_listing.jpg" alt="" /><p> </p>&#13;
+<p>Fancy grid listing:</p>&#13;
+<img class="image-inline" src="table_fancy_grid_listing.jpg" alt="" /><p> </p>&#13;
+<p>Fancy vertical listing:</p>&#13;
+<img class="image-inline" src="table_fancy_vertical_listing.jpg" alt="" /><p> </p>&#13;
+<p>After the table has been created you can click in a cell to show table resizing handles:</p>&#13;
+<img class="image-inline" src="table_resize.jpg" alt="" /><p> </p>&#13;
+<p>In the table above, the cursor has been placed in the "Special Leader"&#13;
+cell, which activates little square handles around the edges for&#13;
+resizing the entire table. It also activates the other table controls in the toolbar which, lets you edit properties of a row or a cell, lets you add and remove rows or columns and lets you split and merge cells.</p>&#13;
+<img class="image-inline" src="table_controls.jpg" alt="" /><p> </p></div>
+                
+                
+            </div>
+
+            
+
+        </div>        
+    
+
+
+            </div>
+        </div><div id="viewlet-below-content">
+</div></div><!-- End cell --><div class="grid-cell position-two-thirds width-third"><div id="sidebar"><div id="portletwrapper-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a48656c7043656e7465725265666572656e63654d616e75616c0a706f72746c65745f7068635f61626f7574" class="portletWrapper kssattr-portlethash-706c6f6e652e6c656674636f6c756d6e0a636f6e74656e745f747970650a48656c7043656e7465725265666572656e63654d616e75616c0a706f72746c65745f7068635f61626f7574">
+
+
+  
+    <div>
+
+<dl class="portlet"><dt class="portletHeader">
+		About
+	</dt>
+
+	<dd class="portletItem">
+
+    
+
+    <div id="phcMetadata">
+      	
+
+        
+
+            <img src="../../../../../portal_memberdata/portraits/robgietema" alt="" class="portraitPhoto" width="75" height="100" style="float: left; margin: 0 1em 0.5em 0" /><p>This document was contributed by
+               <a href="http://plone.org/author/robgietema">Rob Gietema</a>,
+               and last modified
+               904
+               days ago.
+            </p>
+            
+        
+    </div>	
+
+    <p></p>
+	
+    <p>
+    <img src="../../../../../speakplone_sm.png" alt="" width="80" height="28" style="float: left" />
+      Visit our 
+      <a href="http://plone.org/support/chat">chat rooms</a> or 
+      <a href="http://plone.org/support/forums">support forums</a> 
+      if you have more specific questions.
+    </p>
+
+    <p>You can also learn how to design, build, and deploy a website in Plone 
+    through one of the numerous 
+    <a href="http://plone.org/events/training">Plone training sessions</a> around the world.
+    </p>
+
+    <p>Report errors, omissions, etc., to the documentation by emailing <a href="mailto:plone-docs@lists.sourceforge.net">plone-docs@lists.sourceforge.net</a></p>
+
+  </dd>
+
+</dl></div>
+  
+
+  
+
+</div></div></div></div><!-- End row --></div><div style="clear:both"> </div></div><!-- end inner-wrapper --><div id="push"></div></div><!-- end outer-wrapper --><div id="footer-wrapper"><div id="footer-gradient"></div><div id="footer"><a id="footer-logo" href="http://plone.org" title="Plone CMS, the open source content management system"></a><p>The Plone<sup>®</sup> CMS/WCM is © 2000–2010 the Plone Foundation and friends. Site hosted by <a href="http://www.sixfeetup.com" style="color: white">Six Feet Up</a>.</p><p>Plone<sup>®</sup> and the Plone logo are registered trademarks of the Plone Foundation. You’re looking good today.</p><div id="sitemap"><!-- <dl>
+				<dt><a href="">Plone for…</a></dt>
+				<dd><a href="">Small/Medium Business </a></dd>
+				<dd><a href="">Enterprise            </a></dd>
+				<dd><a href="">Non-profits           </a></dd>
+				<dd><a href="">Government            </a></dd>
+				<dd><a href="">Education             </a></dd>
+				<dd><a href="">Science               </a></dd>
+				<dd><a href="">Media &amp; Publishing</a></dd>
+			</dl> --><dl><dt><a href="http://plone.org/products">Downloads</a></dt><dd><a href="http://plone.org/download">Get Plone</a></dd><dd><a href="http://plone.org/products?getCategories=themes">Themes</a></dd><dd><a href="http://plone.org/products?getCategories=dev">Development tools</a></dd><dd><a href="http://plone.org/products?getCategories=auth">Authentication</a></dd><dd><a href="http://plone.org/products">…and more.</a></dd></dl><dl><dt><a href="http://plone.org/documentation">Documentation</a></dt><dd><a href="http://plone.org/documentation/faq/">FAQs</a></dd><dd><a href="http://plone.org/documentation/movies/">Tutorial videos</a></dd><dd><a href="http://plone.org/documentation/manual">Manuals</a></dd><dd><a href="http://plone.org/documentation/books">Books</a></dd><!-- <dd><a href="">Knowledge Base</a></dd> --><dd><a href="http://plone.org/documentation/error">Error Reference</a></dd><!-- <dd><a href="">Module documentation</a></dd> --><dd><a href="http://plone.net/sites">Sites using Plone</a></dd></dl><dl><dt><a href="http://dev.plone.org/plone">Developers</a></dt><dd><a href="http://dev.plone.org/plone/roadmap">Roadmap</a></dd><dd><a href="http://dev.plone.org/plone">Report bugs in Plone</a></dd><dd><a href="http://dev.plone.org/plone.org">Report website issues</a></dd><dd><a href="http://dev.plone.org/plone/timeline">Latest changes</a></dd><dd><a href="http://dev.plone.org/plone/browser">Browse source</a></dd><dd><a href="http://dev.plone.org/plone">Contribute to Plone</a></dd><dd><a href="http://planet.plone.org">Community blogs</a></dd></dl><dl><dt><a href="http://plone.org/foundation">Plone Foundation</a></dt><dd><a href="http://plone.org/foundation/foundation-donations">Donate</a></dd><dd><a href="http://plone.org/foundation/donors">Sponsors</a></dd><dd><a href="http://plone.org/foundation/meetings/minutes">Meeting minutes</a></dd><dd><a href="http://plone.org/team/FoundationBoard">Current board</a></dd><dd><a href="http://plone.org/foundation/members">Foundation members</a></dd><dd><a href="http://plone.org/foundation/membership">Apply for membership</a></dd><dd><a href="http://plone.org/foundation#contact">Contact</a></dd></dl><dl><dt><a href="http://plone.org/support">Support</a></dt><dd><a href="http://plone.net/providers">Commercial services</a></dd><dd><a href="http://plone.org/support/chat">Chat room</a></dd><dd><a href="http://plone.org/support/forums">Forums</a></dd><dd><a href="http://plone.org/support/for">Sector-specific forums</a></dd><dd><a href="http://plone.org/support/region">Region-specific forums</a></dd><dd><a href="http://plone.org/support/local-user-groups">Local user groups</a></dd><dd><a href="http://plone.org/events/training">Training</a></dd></dl></div></div></div><script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-1907133-2']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+</script></body></html>

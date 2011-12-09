@@ -1,0 +1,42 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" i18n:domain="medialog.tinymceplugins.helpmenu">
+<head>
+	<title>TinyMCE Editor Info</title>
+	 <script type="text/javascript" src="jquery.js"></script>
+     <script type="text/javascript" src="jquery-integration.js"></script>
+     <script type="text/javascript" src="nodeutilities.js"></script>
+     <script type="text/javascript"  
+                src="jquery.highlightsearchterms.js"></script>  
+     <script type="text/javascript" src="js/dialog.js"></script>
+     <link rel="stylesheet" type="text/css" href="css/helpmenu.css" />
+
+</head>
+<body>
+<h2  class="chapter" i18n:translate="title00">Chapter 00</h2>
+<iframe width="94%" height="40px" src="00"  i18n:attributes="src"></iframe>
+
+<h2  class="chapter" i18n:translate="title01">Chapter 01</h2>
+<iframe width="94%" height="220px" src="01"  i18n:attributes="src"></iframe>
+
+<h2  class="chapter" i18n:translate="title02">Chapter 02</h2>
+<iframe width="94%" height="100%" src="02"  i18n:attributes="src"></iframe>
+
+<h2  class="chapter" i18n:translate="title03">Chapter 03</h2>
+<iframe width="94%" height="100%" src="03"  i18n:attributes="src"></iframe>
+
+<h2  class="chapter" i18n:translate="title04">Chapter 04</h2>
+<iframe width="94%" height="100%" src="04"  i18n:attributes="src"></iframe>
+
+<h2 class="chapter" i18n:translate="title05">Chapter 05</h2>
+<iframe width="94%" height="100%" src="05"  i18n:attributes="src"></iframe>
+
+<h2  class="chapter" i18n:translate="title06">Chapter 06</h2>
+<iframe width="94%" height="100%" src="06"  i18n:attributes="src"></iframe>
+
+<h2  class="chapter" i18n:translate="title07">Chapter 07</h2>
+<iframe width="94%" height="100%" src="07"  i18n:attributes="src"></iframe>
+
+
+
+</body>
+</html>
