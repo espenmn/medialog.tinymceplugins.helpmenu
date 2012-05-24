@@ -15,6 +15,10 @@ iframe {
 	height:  90%;
 }
 
+.chaptertext {
+	overflow: visible ;
+}
+
 
 p {
 	padding: 3px;

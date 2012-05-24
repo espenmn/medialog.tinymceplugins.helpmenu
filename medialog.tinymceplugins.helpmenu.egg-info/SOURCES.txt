@@ -1,3 +1,4 @@
+.gitignore
 MANIFEST.in
 PKG-INFO
 README.txt
