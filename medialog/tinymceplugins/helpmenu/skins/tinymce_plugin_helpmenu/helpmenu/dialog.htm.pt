@@ -34,7 +34,8 @@
 <div tal:content="structure context/05"/>
 
 <h2  class="chapter" i18n:translate="title06">06 Videoer</h2>
-<div tal:content="structure context/06"/>
+<iframe src="http://www.youtube.com/embed/Zhb2VCZQjzw"
+ allowfullscreen="" frameborder="0" height="349" width="560" />
 
 
 </body>
