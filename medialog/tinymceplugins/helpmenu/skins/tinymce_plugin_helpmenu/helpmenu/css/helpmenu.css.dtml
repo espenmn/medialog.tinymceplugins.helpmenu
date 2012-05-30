@@ -42,6 +42,11 @@ tr {
 	text-decoration: underline;
 }
 
+.chapter:hover {
+	color: #b1442a;
+	cursor:  pointer;
+}
+
 html {
 padding:10px;
 	
